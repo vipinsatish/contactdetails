@@ -11,9 +11,10 @@ function App() {
     <div>
       <Menu/>
       <Switch>
-      <Route path="/" exact component={Home}/>
+      <Route path="/" component={Contact}/>
+      <Route path="/Home" exact component={Home}/>
       <Route path="/About" component={About}/>
-      <Route path="/Contact" component={Contact}/>
+       
       </Switch>
     </div>
     </BrowserRouter>
