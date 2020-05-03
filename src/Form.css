@@ -1,0 +1,29 @@
+input[name="name"], input[name="email"],input[name="password"],input[name="phone"]{
+    width: 80%;
+    padding: 5px 22px;
+    margin: 10px 0px;
+    box-sizing: border-box;  
+    border: 2px solid #58B19F;
+
+}
+
+textarea {
+    width: 80%;
+    height: 50px;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    border: 2px solid #58B19F;
+    border-radius: 2px;
+    resize: none;  
+}
+
+button[type=submit] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
